@@ -27,11 +27,11 @@ Now let's stop being root:
 
 exit
 
-And start x windows/i3wm
+And start x windows/i3wm:
 
 startx
 
-Now we should have i3 window manager, press return to make a new setup file. (~/.i3/config)
+Now we should have i3 window manager on screen, press return to make a new setup file. (~/.i3/config)
 
 Now let's set our wallpaper.
 
@@ -44,6 +44,8 @@ wget https://raw.githubusercontent.com/infoburp/clover/master/wall.png
 Then set this as the wallpaper:
 
 feh --bg-scale wall.png
+
+Close the terminal to see the wallpaper in all it's glory with [mod]+shift+Q.
 
 And we're done. Enjoy.
 
