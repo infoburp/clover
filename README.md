@@ -22,3 +22,28 @@ Then run it:
 
 sh clover.sh
 
+Now let's stop being root:
+
+exit
+
+And start x windows/i3wm
+
+startx
+
+Now we should have i3 window manager, press return to make a new setup file. (~/.i3/config)
+
+Now let's set our wallpaper.
+
+Press [mod]+return to open a terminal.
+
+Get a clover specific wallpaper (or put what you prefer here):
+
+wget https://raw.githubusercontent.com/infoburp/clover/master/wall.png 
+
+Then set this as the wallpaper:
+
+feh --bg-scale wall.png
+
+And we're done. Enjoy.
+
+
