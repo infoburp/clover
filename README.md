@@ -5,6 +5,10 @@ First get the image we'll start from:
 
 http://cdimage.debian.org/debian-cd/7.5.0/amd64/iso-cd/debian-7.5.0-amd64-netinst.iso
 
+Or if you're still living in the 32 bit dark ages:
+
+http://cdimage.debian.org/debian-cd/7.5.0/i386/iso-cd/debian-7.5.0-i386-netinst.iso
+
 Burn to a cd or whatever, and boot your machine from it.
 
 Install with defaults, be sure to select YES when asked if you want to use a network mirror, so apt can do it's magic.
