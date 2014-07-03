@@ -8,21 +8,27 @@ do
     case $opt in
         "i3")
             echo "you chose i3"
+            sudo apt-get install i3
             ;;
         "openbox")
             echo "you chose openbox"
+            sudo apt-get install openbox
             ;;
         "awesome")
             echo "you chose awesome"
+            sudo apt-get install awesome
             ;;
         "xfce")
             echo "you chose xfce"
+            sudo apt-get install xfce4
             ;;
         "kde")
             echo "you chose kde"
+            sudo apt-get install KDE
             ;;
         "gnome")
             echo "you chose gnome"
+            sudo apt-get install GNOME
             ;;
         "DE/WM?")
             echo "git gud then come back"
