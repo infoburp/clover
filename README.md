@@ -13,8 +13,9 @@ When asked what software to install, select JUST "Standard system utilities", to
 
 (I'm assuming this isn't your first install, so you can work the rest out)
 
-Get the shell script to do clover specific magic:
+Become, root, then get the shell script to do clover specific magic:
 
+su
 wget https://raw.githubusercontent.com/infoburp/clover/master/clover.sh
 
 Then run it:
