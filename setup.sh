@@ -2,7 +2,7 @@
 # clover os basic setup
 
 PS3='What DE/WM would you like to install?: '
-options= ("i3" "openbox" "awesome" "xfce" "kde" "gnome" "DE/WM?" "none" "quit")
+options=("i3" "openbox" "awesome" "xfce" "kde" "gnome" "DE/WM?" "none" "quit")
 select opt in "${options[@]}"
 do
     case $opt in
