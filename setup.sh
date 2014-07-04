@@ -1,6 +1,8 @@
 #!/bin/bash
 # clover os basic setup
-
+# install xorg 
+sudo apt-get install xorg
+# choose a DE/WM to install
 PS3='What DE/WM would you like to install?: '
 options=("i3" "openbox" "awesome" "xfce" "kde" "gnome" "DE/WM?" "none" "quit")
 select opt in "${options[@]}"
