@@ -28,7 +28,7 @@ do
             ;;
         "gnome")
             echo "you chose gnome"
-            sudo apt-get install GNOME
+            sudo apt-get install gnome-shell
             ;;
         "DE/WM?")
             echo "git gud then come back"
