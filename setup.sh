@@ -4,7 +4,7 @@
 sudo apt-get install xorg
 # choose a DE/WM to install
 PS3='What DE/WM would you like to install?: '
-options=("i3" "openbox" "awesome" "xfce" "kde" "gnome" "DE/WM?" "none" "quit")
+options=("i3" "openbox" "awesome" "xfce" "kde" "gnome" "mate" "DE/WM?" "none" "quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -31,6 +31,10 @@ do
         "gnome")
             echo "you chose gnome"
             sudo apt-get install gnome-shell
+            ;;
+        "mate")
+            echo "you chose mate"
+            sudo apt-get install mate-desktop-environment
             ;;
         "DE/WM?")
             echo "git gud then come back"
