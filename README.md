@@ -27,6 +27,10 @@ Then run it:
 
 sh clover.sh
 
+Let's add our user to the sudoers group so we can sudo later:
+
+adduser [username] sudo
+
 Now let's stop being root:
 
 exit
