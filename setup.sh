@@ -24,7 +24,7 @@ do
             ;;
         "kde")
             echo "you chose kde"
-            sudo apt-get install KDE
+            sudo apt-get install kde-desktop
             ;;
         "gnome")
             echo "you chose gnome"
